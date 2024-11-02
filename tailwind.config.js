@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         Poppins: ["Poppins", "sans - serif"],
       },
+      backgroundImage: {
+        banner: "url('./assets/banner.jpg')",
+      },
     },
   },
   plugins: [require("daisyui")],
