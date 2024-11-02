@@ -25,18 +25,18 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 gap-3 shadow"
           >
-            <NavLink>Home</NavLink>
-            <NavLink>Coffees</NavLink>
-            <NavLink>Dashboard</NavLink>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/coffees">Coffees</NavLink>
+            <NavLink to="/dashboard">Dashboard</NavLink>
           </ul>
         </div>
         <h3 className=" text-2xl text-black font-semibold">Coffee_House</h3>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-10 text-base">
-          <NavLink>Home</NavLink>
-          <NavLink>Coffees</NavLink>
-          <NavLink>Dashboard</NavLink>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/coffees">Coffees</NavLink>
+          <NavLink to="/dashboard">Dashboard</NavLink>
         </ul>
       </div>
     </div>
